@@ -6,7 +6,7 @@
   "doCGRAMapping"       : false,
   "row"                 : 4,
   "column"              : 4,
-  "vectorizationMode"   : "interleaved",
+  "vectorizationMode"   : "all",
   "fusionStrategy"      : [],
   "isTrimmedDemo"       : true,
   "heuristicMapping"    : false,
@@ -14,6 +14,7 @@
   "isStaticElasticCGRA" : false,
   "precisionAware"      : false,
   "ctrlMemConstraint"   : 200,
-  "regConstraint"       : 8
+  "regConstraint"       : 8,
+  "parameterizableCGRA": false
 }
 
